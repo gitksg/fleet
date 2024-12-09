@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_di_integration_setup">
+    <sys_di_integration_setup action="DELETE">
+        <condition/>
+        <create_flow>true</create_flow>
+        <flow display_value="DocIntel Task Processing Flow - FUHRERAUSWEIS - FUHRERAUSWEIS Processing">ad0f13c92b9e9250eec1fdb36e91bfd6</flow>
+        <flow_conditions/>
+        <mluc_id/>
+        <name>FUHRERAUSWEIS Processing</name>
+        <sys_class_name>sys_di_integration_setup</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 15:48:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>250f9b092b9e9250eec1fdb36e91bf72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FUHRERAUSWEIS Processing</sys_name>
+        <sys_package display_value="Rent Assist" source="x_snc_rent_assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_update_name>sys_di_integration_setup_250f9b092b9e9250eec1fdb36e91bf72</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-04 15:48:27</sys_updated_on>
+        <target_table>x_snc_rent_assist_booking</target_table>
+        <task_definition display_value="FUHRERAUSWEIS">68e3df492b1e9250eec1fdb36e91bf67</task_definition>
+        <trigger>x_snc_rent_assist_booking</trigger>
+        <type>process_task</type>
+    </sys_di_integration_setup>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</application>
+        <file_path/>
+        <instance_id>110c242aebc296983a48f459bad0cd6a</instance_id>
+        <instance_name>democreatorwf92220</instance_name>
+        <name>sys_di_integration_setup_250f9b092b9e9250eec1fdb36e91bf72</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_di_integration_setup"><sys_di_integration_setup action="INSERT_OR_UPDATE"><condition/><create_flow>true</create_flow><flow display_value="DocIntel Task Processing Flow - FUHRERAUSWEIS - FUHRERAUSWEIS Processing">ad0f13c92b9e9250eec1fdb36e91bfd6</flow><flow_conditions/><mluc_id/><name>FUHRERAUSWEIS Processing</name><sys_class_name>sys_di_integration_setup</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-04 15:48:26</sys_created_on><sys_domain>global</sys_domain><sys_id>250f9b092b9e9250eec1fdb36e91bf72</sys_id><sys_mod_count>1</sys_mod_count><sys_name>FUHRERAUSWEIS Processing</sys_name><sys_package display_value="Rent Assist" source="x_snc_rent_assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_package><sys_policy/><sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope><sys_update_name>sys_di_integration_setup_250f9b092b9e9250eec1fdb36e91bf72</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-04 15:48:27</sys_updated_on><target_table>x_snc_rent_assist_booking</target_table><task_definition display_value="FUHRERAUSWEIS">68e3df492b1e9250eec1fdb36e91bf67</task_definition><trigger>x_snc_rent_assist_booking</trigger><type>process_task</type></sys_di_integration_setup></record_update>]]></payload>
+        <payload_hash>2117357340</payload_hash>
+        <record_name>FUHRERAUSWEIS Processing</record_name>
+        <reverted_from/>
+        <source>cc0fd1db2bc65210eec1fdb36e91bfc3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 15:48:27</sys_created_on>
+        <sys_id>3d0f53c92b9e9250eec1fdb36e91bf6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193925bc38e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-04 15:48:27</sys_updated_on>
+        <type>Integration Setup</type>
+        <update_guid>fd0f53c9569e92502a9edcfff2381e6a</update_guid>
+        <update_guid_history>fd0f53c9569e92502a9edcfff2381e6a:2117357340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-08 23:03:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_di_integration_setup">sys_di_integration_setup</sys_db_object>
+        <sys_id>10136ec9209e4ae081cd87ae77615e10</sys_id>
+        <sys_metadata>250f9b092b9e9250eec1fdb36e91bf72</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FUHRERAUSWEIS Processing</sys_name>
+        <sys_package display_value="Rent Assist" source="x_snc_rent_assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_scope_delete display_value="">b54cd95fbdaa453089ff6aab3af1a6b1</sys_scope_delete>
+        <sys_update_name>sys_di_integration_setup_250f9b092b9e9250eec1fdb36e91bf72</sys_update_name>
+        <sys_update_version display_value="sys_di_integration_setup_250f9b092b9e9250eec1fdb36e91bf72">3d0f53c92b9e9250eec1fdb36e91bf6b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-08 23:03:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

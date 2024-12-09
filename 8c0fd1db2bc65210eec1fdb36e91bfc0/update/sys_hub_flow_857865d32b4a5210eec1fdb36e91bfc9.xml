@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,intermediateFlowVersion=1.2,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview>Booking Approval Process</display_name_after_preview>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source>text2flow</generation_source>
+        <internal_name>booking_approval_process817</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Booking Record","reference":"x_snc_rent_assist_booking","reference_display":"Booking","type":"reference","base_type":"reference","usedInstances":{"9d7865d3-6f4a-5210-dd94-7ad9ad016ee4":["record"],"record":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Booking Record➛Opened by➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"9d7865d3-6f4a-5210-dd94-7ad9ad016ee4":["approval_conditions"]}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Booking Approval Process</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-28 20:41:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>857865d32b4a5210eec1fdb36e91bfc9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Booking Approval Process</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Rent Assist" source="x_snc_rent_assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_update_name>sys_hub_flow_857865d32b4a5210eec1fdb36e91bfc9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 20:43:42</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=857865d32b4a5210eec1fdb36e91bfc9^sys_idNOT IN097865d32b4a5210eec1fdb36e91bfca"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>857865d32b4a5210eec1fdb36e91bfc9</id>
+        <name>Booking Approval Process817</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-28 20:41:01</sys_created_on>
+        <sys_id>097865d32b4a5210eec1fdb36e91bfca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 20:41:01</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=097865d32b4a5210eec1fdb36e91bfca"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=857865d32b4a5210eec1fdb36e91bfc9^sys_idNOT IN9d78a5d32b4a5210eec1fdb36e91bf3a,9d78a5d32b4a5210eec1fdb36e91bf41"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Booking Approval Process">857865d32b4a5210eec1fdb36e91bfc9</model>
+        <model_id>857865d32b4a5210eec1fdb36e91bfc9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_857865d32b4a5210eec1fdb36e91bfc9</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-28 20:41:02</sys_created_on>
+        <sys_id>9d78a5d32b4a5210eec1fdb36e91bf3a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 20:43:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9d78a5d32b4a5210eec1fdb36e91bf3a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Booking Approval Process">857865d32b4a5210eec1fdb36e91bfc9</model>
+        <model_id>857865d32b4a5210eec1fdb36e91bfc9</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_857865d32b4a5210eec1fdb36e91bfc9</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-28 20:41:03</sys_created_on>
+        <sys_id>9d78a5d32b4a5210eec1fdb36e91bf41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 20:43:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9d78a5d32b4a5210eec1fdb36e91bf41"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=857865d32b4a5210eec1fdb36e91bfc9^sys_idNOT INdd78a5d32b4a5210eec1fdb36e91bf38"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment>whenever a booking record is created in the table x_snc_rent_assist_booking</comment>
+        <display_text/>
+        <flow display_value="Booking Approval Process">857865d32b4a5210eec1fdb36e91bfc9</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-28 20:41:02</sys_created_on>
+        <sys_id>dd78a5d32b4a5210eec1fdb36e91bf38</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 20:43:42</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VZ227jNhD9FUFPLZACutiWlbddJ0UDpEnrpO1DkBKURNrE0pQrUUrcRf69Q4myZVnKyrm0dvoSwCQ9nDM8cw7p3H01OQ4IN0/NWxxwYp6YTEiSCMxvV0sCw1INI4EXai4iSyIiIiRMwMcFFhGWcbIyT2WSkRMzTiKSmKf2iVl8QX8bVuaYZ+rzI0pFiBKIgHCaslSiII6/MDFTwVm65Hj1u176eT2xxAlEkyryVzOcMx5BAPP07v7ElJAk2kJgXJWpsghGQhpi3yFW6Nqu41iWMx7YwcgNbCdyMbEsWNeE30hctlRhg5I8SlUP2IpinpKWiiQER9eCr9Yr5mxTvceU/Q3Rx5ZaRwmgCkk5F85jFpLrpWSxKEfKhMrJmGcLcVUmWpwKxRmXVeFgJEsJqp2V3prezOOHabXRj0wUMPQkj0PM15+wlAkLMklSVXPKOFQflUVI4ywp0pyeT66nZ+iPT7eTn86naHp+czu9mNyen5lPBR70V6YimnXeoBIOLEjDhC3lp1CynOhtn042bEwyAWvRusA7vCwrtMvJcvwSqAUMgdSrqhQ7wDy91DtMM2HEcDLwxwizRHHSqE6dXizwTNeS/lLRr6iF5keOE4QWKF2laJ4FCKo1m0GJmFhmEnn+2LdHuIN2XrhVkaI1IPSdad4/qUMinISyxin6W1r/9DODxoG+2NRsjVFRbhfiGh1w06gKWkJNjwvr/VaD6UVVN1rWunl3yZM3WNBXUiYVywo5sW1KA0Idy1NIbcsNqG151hDTyLWs0KnJyW4KnbnJBqHrgJ4TGD3SR2EGXQqTFk3Ce7REs4JVlvWm7cW3fJusOo6jDlcL2eQAU2sIsruXIleJ6eGzbaN7DtobCzmOcgzfiCqMbyTUD3MiUEqkLP36lUotoD2KELjcsyZoiueGqheNE+MqFj9cbNYZNwTEAtI+Kkmry3cf0BAsMT4U6iCW86ZpKaSfYXwLqerZjjP/wD7W6K18u2ov9DEyGA996oYe4ATnogMSYHvgDLHvjVzqN3yskUJ3cofjZD2FIu+UnDYP6duIeWs/r92k4Uov4XqDBTq0+w0P/f8W5VXureN1m/dLkj0OY6c8fgAOvN7TAxx+mSVxJqIdqYctDCaMzQrjO13q749L1eumBpQgz+PdXnE8KPfxrg19qt7EYvVi13KpHfhkQCx4dLngWsHQ94MQO5R6I484dsO1Npu3ZnQ4XtWjC/K2Nup65rQyLG8j5h5vr/8+wVdpeMm7dgkv5w5fkCexiJgs3bQpx9VU2pDk6h3Zq2XD2gbVcfx5/us+DVvPo2ja0QjjiHRJU0BrTVvH15KRbIH6Lk1rvffPseUvwy+m1iKOCD+rH3LdDFRZHrCQKZIxwlGEagXrycUS2x5Pf8CXvOX7X+VBUEzr3nkWGzBhwJ4Go4aGTCIjWBlyTkBLOKgK7G+oZI7sPVi/OewiX9+wPzTuUoV3fgWA4QLZcQHb+4Hf6KC3uC6RyMPDoeu1P/L95nWpLY1vZHk4V6i9xSFv05pnn7f7xW3GbH3g1ri9feA93/MfGPW7XfZasjj8m992A3LlmDsuO+MsItVc9//p+2qRDpRvLjF9VehSp6cKQMd+OLS9Dg0aDzs1SG//XGqyBfe/ch9U9qKpc1j/pn8r5t3/AxaNh7wWIgAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=857865d32b4a5210eec1fdb36e91bfc9^sys_idNOT IN9178a5d32b4a5210eec1fdb36e91bf60"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>ask for approval the manager of the submitter</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Booking Approval Process">857865d32b4a5210eec1fdb36e91bfc9</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-28 20:41:03</sys_created_on>
+        <sys_id>9178a5d32b4a5210eec1fdb36e91bf60</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 20:43:42</sys_updated_on>
+        <ui_id>9d7865d3-6f4a-5210-dd94-7ad9ad016ee4</ui_id>
+        <values>H4sIAAAAAAAA/+1X32/aMBD+V5CfURagXSlv3RDSJm2V2m4vpbIcxwFvxs5spy1D+d93TpyQQpsiRKet26Pv53d33znO9QrxGI3QyTDps9PTfhj1wnAQhsNjGg4HLBqcvD0ZEBqiLpJkwcBSM6p0DOdbIjInWK3ea0Ysi3EvoJnWTNo8B33MTSrI8qs3AwmdcxGDHo2ub7ooJRoiWqbRaLWhssuUYUEiJsBxrGi2gKCdD2OIsSvayvuigrsJ3+WAc+yjY+6EoHJ4wi5i95bJmEG2hAjDumhBZEys0ks0sjoDARQdn0uxrC3mXNqy0AW5N/wnhB/0nV3CoDJaN0Fxys5Ty5UsJZZEolIqkS3k5xKq6yFLSCZso4eZYThmqcPmspVQksu5uruo8ky4LKrwsISiRNQnYq3mUWaZcW1nghXFL0iacjnDqVa3vHAGKItgJuAQJELdQU7DZzIg1OEOoBMkmIB8XIi/Es1dEZ8gDDjnRdH4R+bylmV4wLiouSwYrAzVPLVnEPOWeYR51zMyoq0zpuuRluHWhLzHRlLseIiJMdxYHCn1HcrbJuW7WrEfN69c6k4xr+7OsB84b5fhiVkcsSxDe1722nnpJbsQcxi+MDF96r+Mmc+RMuy1TTcerqcJ+QAxETjhTDSvy0qxTcaGZj82TlyqB2zcAW/lfOazdyYe8FOFeH4Wxw1+9g/Iz/ClGfp6r07aOnU2WA/3m8q0bCEpnsP16Wb3JFkbFoci7Q7wK+ePJf5Nzm6W1ULZwX/K/gmUPTpunTl75D6iSsbc4TMN4pa3GDNncvnl+pGXaaAAGwiiZQBTJjOm8/xmm937htlvBeqr9yITzFRrsENL6keu92ttkV+CWqm9k1+Eo0O9eX/DHrzOxwVtHXhyuh5wnEE7gJHNv7ApKkFO0WiKpJJsirpT5Kywm3whBgsAVysK2WqV56Uk08QH6DWOa++YLE1haeicxcCeQvpAUlLayw/5E3jpE3TGgPvNFW98LZ7vWv0nmZX+jzbSr0ddSdk53vxWHB/sW3H0b24IwOS4fubCpwEulb3X5uYXq3ahU7wQAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_857865d32b4a5210eec1fdb36e91bfc9^sys_idNOT IN5178a5d32b4a5210eec1fdb36e91bf44,9d78a5d32b4a5210eec1fdb36e91bf40"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_857865d32b4a5210eec1fdb36e91bfc9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-28 20:41:03</sys_created_on>
+        <sys_id>5178a5d32b4a5210eec1fdb36e91bf44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rent Assist" source="x_snc_rent_assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 20:41:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_857865d32b4a5210eec1fdb36e91bfc9</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-28 20:41:02</sys_created_on>
+        <sys_id>9d78a5d32b4a5210eec1fdb36e91bf40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Rent Assist" source="x_snc_rent_assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 20:41:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=857865d32b4a5210eec1fdb36e91bfc9"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=857865d32b4a5210eec1fdb36e91bfc9"/>
+</record_update>

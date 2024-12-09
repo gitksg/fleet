@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="400f15db2bc65210eec1fdb36e91bf1f" label="Vehicle" max_length="40" name="x_snc_rent_assist_vehicle" type="collection">
+        <element label="Availability" mandatory="true" max_length="40" name="availability" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Size" mandatory="true" max_length="40" name="size" type="string"/>
+        <element attributes="omit_sys_original=true" label="Cost" mandatory="true" max_length="20" name="cost" type="currency"/>
+        <element label="Doors" mandatory="true" max_length="40" name="doors" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" mandatory="true" max_length="40" name="model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Plate Number" mandatory="true" max_length="40" name="plate_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model Name" mandatory="true" max_length="32" name="model_name" reference="x_snc_rent_assist_model" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Category" mandatory="true" max_length="40" name="category" type="string"/>
+        <element label="GPS" max_length="40" name="gps" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Transmission" mandatory="true" max_length="40" name="transmission" type="string"/>
+        <element attributes="omit_sys_original=true" label="Total Cost" mandatory="true" max_length="20" name="total_cost" type="currency"/>
+        <element label="Seats" mandatory="true" max_length="40" name="seats" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Fuel" mandatory="true" max_length="40" name="fuel" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" mandatory="true" max_length="40" name="location" type="string"/>
+        <element label="Air Conditioning" max_length="40" name="air_conditioning" type="boolean"/>
+    </element>
+</database>

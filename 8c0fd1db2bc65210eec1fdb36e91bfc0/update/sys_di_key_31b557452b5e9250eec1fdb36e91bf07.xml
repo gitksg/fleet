@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_di_key">
+    <sys_di_key action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_details/>
+        <description/>
+        <display_name>Date of Birth</display_name>
+        <group_index>0</group_index>
+        <key_config/>
+        <key_group/>
+        <mandatory>true</mandatory>
+        <metadata>{"format":"MonthFirst","agentReview":false}</metadata>
+        <name>dateofbirth</name>
+        <order>2</order>
+        <prediction_method/>
+        <stp_threshold/>
+        <synonym/>
+        <sys_class_name>sys_di_key</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 15:07:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>31b557452b5e9250eec1fdb36e91bf07</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Date of Birth</sys_name>
+        <sys_package display_value="Rent Assist" source="x_snc_rent_assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_update_name>sys_di_key_31b557452b5e9250eec1fdb36e91bf07</sys_update_name>
+        <sys_updated_by>sharedservice.worker</sys_updated_by>
+        <sys_updated_on>2024-12-04 15:38:25</sys_updated_on>
+        <target_field>date_of_birth</target_field>
+        <target_table>x_snc_rent_assist_booking</target_table>
+        <task_definition display_value="FUHRERAUSWEIS">68e3df492b1e9250eec1fdb36e91bf67</task_definition>
+        <total_used_positive_samples>4</total_used_positive_samples>
+        <type>date</type>
+    </sys_di_key>
+</record_update>

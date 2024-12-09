@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_di_key">
+    <sys_di_key action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_details/>
+        <description/>
+        <display_name>Driving License Number</display_name>
+        <group_index>0</group_index>
+        <key_config/>
+        <key_group/>
+        <mandatory>true</mandatory>
+        <metadata/>
+        <name>drivinglicensenumber</name>
+        <order>3</order>
+        <prediction_method/>
+        <stp_threshold/>
+        <synonym/>
+        <sys_class_name>sys_di_key</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 15:08:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9ac59f052b5e9250eec1fdb36e91bfd2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Driving License Number</sys_name>
+        <sys_package display_value="Rent Assist" source="x_snc_rent_assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rent Assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_scope>
+        <sys_update_name>sys_di_key_9ac59f052b5e9250eec1fdb36e91bfd2</sys_update_name>
+        <sys_updated_by>sharedservice.worker</sys_updated_by>
+        <sys_updated_on>2024-12-04 15:38:25</sys_updated_on>
+        <target_field>driving_license_number</target_field>
+        <target_table>x_snc_rent_assist_booking</target_table>
+        <task_definition display_value="FUHRERAUSWEIS">68e3df492b1e9250eec1fdb36e91bf67</task_definition>
+        <total_used_positive_samples>3</total_used_positive_samples>
+        <type>Text</type>
+    </sys_di_key>
+</record_update>

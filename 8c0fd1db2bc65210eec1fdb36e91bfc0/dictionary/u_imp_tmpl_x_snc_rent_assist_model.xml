@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1505a1db2b0a5210eec1fdb36e91bf19" extends="sys_import_set_row" label="Imp Tmpl X Snc Rent Assist Model" max_length="40" name="u_imp_tmpl_x_snc_rent_assist_model" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Photo" label="Photo" max_length="40" name="u_photo" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model Name" label="Model Name" max_length="100" name="u_model_name" type="string"/>
+    </element>
+</database>

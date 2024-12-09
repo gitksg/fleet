@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b594ed5b2b0a5210eec1fdb36e91bf68" extends="sys_import_set_row" label="Imp Tmpl X Snc Rent Assist Vehicle" max_length="40" name="u_imp_tmpl_x_snc_rent_assist_vehicle" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dep3" label="dep3" max_length="40" name="u_dep3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Doors" label="Doors" max_length="40" name="u_doors" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Size" label="Size" max_length="40" name="u_size" type="string"/>
+        <element attributes="import_attribute_name=Total Cost" label="Total Cost" max_length="20" name="u_total_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model Name" label="Model Name" max_length="32" name="u_model_name" type="string"/>
+        <element attributes="import_attribute_name=Cost" label="Cost" max_length="20" name="u_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dep1" label="dep1" max_length="40" name="u_dep1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model" label="Model" max_length="40" name="u_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Plate Number" label="Plate Number" max_length="40" name="u_plate_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=dep2" label="dep2" max_length="40" name="u_dep2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Available" label="Available" max_length="40" name="u_available" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=GPS" label="GPS" max_length="40" name="u_gps" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Fuel" label="Fuel" max_length="40" name="u_fuel" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Transmission" label="Transmission" max_length="40" name="u_transmission" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Air Conditioning" label="Air Conditioning" max_length="40" name="u_air_conditioning" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Category" label="Category" max_length="40" name="u_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Seats" label="Seats" max_length="40" name="u_seats" type="string"/>
+    </element>
+</database>

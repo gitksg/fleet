@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System Import Sets" source="com.glide.system_import_set">a14070e22b021210eec1fdb36e91bf4a</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-28 20:24:09</sys_created_on>
+        <sys_id>7d94ed5b2b0a5210eec1fdb36e91bf8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Rent Assist" source="x_snc_rent_assist">8c0fd1db2bc65210eec1fdb36e91bfc0</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-28 20:24:09</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
